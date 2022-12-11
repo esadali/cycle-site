@@ -828,6 +828,20 @@ header {
 }
 
 @media (max-width:991px) {
-  
-  
+
+  #nav-bar {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  z-index: 999999;
+  padding: 20px 50px;
+  background: #998873;
+}
+
+
+.navbar-end button:last-child {
+  display: none;
+}
+
+
 }
